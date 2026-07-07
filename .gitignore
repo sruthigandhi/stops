@@ -7,6 +7,11 @@
 *.tar.gz
 *.zip
 *.deb
+*.css
+*.js
+*.json
+*.woff
+
 
 # Quarto and RStudio Project Artifacts
 .Rproj.user/
@@ -26,3 +31,6 @@
 # Operating System specific files
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
