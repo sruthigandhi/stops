@@ -1,0 +1,4 @@
+*.csv
+*.csv.zip
+*.deb
+.DS_Store
