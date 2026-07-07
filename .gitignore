@@ -1,4 +1,28 @@
+# Raw Data and Subsets (Crucial to prevent uploading massive CSV files to GitHub)
 *.csv
-*.csv.zip
+*.tsv
+*.rds
+*.RData
+*.RDataTmp
+*.tar.gz
+*.zip
 *.deb
+
+# Quarto and RStudio Project Artifacts
+.Rproj.user/
+.Rhistory
+.RData
+.Rmarkdown-chunk-string-cache/
+*_cache/
+*_files/
+.qmd_cache/
+
+# Quarto Output Formats
+*.html
+*.pdf
+*.docx
+*.md
+
+# Operating System specific files
 .DS_Store
+Thumbs.db
